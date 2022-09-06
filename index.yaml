@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  cdevents-demo:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/bradmccoydev/cdevents-demo/issues
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-09-06T05:21:55.66176298Z"
+    description: A Helm chart for CDEvents Demo
+    digest: 1e92d7536c911617f1d0cbdb84ab6e956a2e928f34a8f76549f848adecd86fdb
+    home: https://blog.bradmccoy.io
+    keywords:
+    - cloud-native
+    - orchestration
+    - cd
+    - keptn
+    - ortelius
+    - cdevents
+    name: cdevents-demo
+    sources:
+    - https://github.com/bradmccoydev/cdevents-demo
+    type: application
+    urls:
+    - https://github.com/bradmccoydev/cdevents-demo/releases/download/cdevents-demo-0.0.1/cdevents-demo-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-09-06T05:21:55.66177068Z"
