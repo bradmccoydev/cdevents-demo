@@ -1,0 +1,25 @@
+apiVersion: v2
+name: cdevents-demo
+description: A Helm chart for CDEvents Demo
+
+type: application
+
+version: 0.0.1
+
+appVersion: "0.0.1"
+
+home: "https://blog.bradmccoy.io"
+sources:
+  - "https://github.com/bradmccoydev/cdevents-demo"
+annotations:
+  artifacthub.io/license: "Apache-2.0"
+  artifacthub.io/links: |
+    - name: support
+      url: https://github.com/bradmccoydev/cdevents-demo/issues
+keywords:
+  - cloud-native
+  - orchestration
+  - cd
+  - keptn
+  - ortelius
+  - cdevents
