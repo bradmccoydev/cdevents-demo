@@ -1,0 +1,23 @@
+name: 'CDEvents Action'
+author: 'Brad McCoy'
+description: 'CDEvents'
+inputs:
+  source:
+    description: 'URL of Artifactory instance'
+    required: true
+    default: https://bradmccoy.jfrog.io/artifactory
+  subject_id:
+   description: Artifactory Build name
+   required: true
+  subject_pipeline_name:
+   description: Directory for the build files
+   default: build/
+  subject_url:
+    description: Artifactory Build Number
+    required: true
+branding:
+  icon: 'package'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: './Dockerfile'
